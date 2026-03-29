@@ -17,6 +17,11 @@ components:
   skill:
     dir: skills/signal-tracker
 
+  binary:
+    repo: okx/plugin-store
+    asset_pattern: "signal-tracker-typescript-{target}"
+    checksums_asset: checksums.txt
+
 build:
   lang: typescript
   source_repo: ganlinux/signal-tracker-typescript
